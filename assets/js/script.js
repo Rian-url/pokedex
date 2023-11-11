@@ -22,7 +22,7 @@ const convertPokemonToLi = (pokemon) =>{
 const pokemonOl = document.getElementById('pokemonList')
 
 
-pokeApi.getPokemons(0,16).then( (pokemonList = []) => {
+pokeApi.getPokemons(0,30).then( (pokemonList = []) => {
 
     pokemonOl.innerHTML +=  pokemonList.map(convertPokemonToLi).join('')
 
