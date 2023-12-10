@@ -105,6 +105,10 @@ body {
     color: white;
 }
 
+.pokemons:hover{
+    cursor: pointer;
+}
+
 @media screen and (min-width:992px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -145,9 +149,29 @@ body {
     text-transform: capitalize;
 }
 
+.pokemon .nameDetails {
+    color: #ffff;
+    margin-bottom: .30rem;
+    margin-top: .30rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
 .detail img {
     max-width: 100%;
     height: 100px;
+}
+
+.pokemon .imgPokemon{
+    width: 25vw;
+
+}
+
+.pokemon .center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .pokemon .types {
@@ -187,7 +211,7 @@ body {
     padding: 1rem;
 }
 
-.pagination button{
+.pagination .btn{
     background-color: #6c79db;
     border: none;
     color: #fff;
@@ -195,3 +219,10 @@ body {
     padding: .5rem .8rem;
     font-size: .900rem;
 }
+
+.pagination .btn:hover{
+   cursor: pointer;
+   background-color: #0e1971;
+   border: black solid 2px;
+}
+
