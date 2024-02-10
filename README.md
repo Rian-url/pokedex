@@ -10,7 +10,7 @@ Aprendendo como enviar solicitações HTTP usando a linguagen de programação J
 <img src="https://img.shields.io/badge/CSS-239120?style=for-the-badge&logo=css3&logoColor=white" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> 
 
-#Autor do projeto:
+### Autor do projeto:
 
 <a href="https://www.linkedin.com/in/developer-rian-vieira/">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
